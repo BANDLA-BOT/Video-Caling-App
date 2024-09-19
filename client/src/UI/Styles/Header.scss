@@ -1,0 +1,31 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: ce;
+        width: 124px;
+        img{
+            width: 100%;
+        }
+        .help-text{
+            font-size: 22px;
+            padding-left: 4px;
+            color: gray;
+
+        }
+    }   
+    .action-btn{
+        display: flex;
+        align-items: center;
+        .icon-block{
+            font-size: 20px;
+            color: gray;
+            padding: 10px;
+        }
+    }
+}
